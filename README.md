@@ -114,7 +114,7 @@ res.json
 - Route: /api/login
 - Method: POST
 
-:point_down: req.body
+Request
 
 ```json
 {
@@ -123,11 +123,11 @@ res.json
 }
 ```
 
-:point_down: Response
+Response
 
 ```json
 {
-  "token": {token},
+  "token": {JWT},
   "username": "baccrie",
   "name": "Bakare Rilwan"
 }
@@ -142,33 +142,45 @@ res.json
 - Header
   - Authorization: Bearer {token}
 
-:point_down: Body
+Body
 
 ```json
 {
-  "title": "The Rise and fall of the Northern Empire",
-  "tags": ["memoirs", "expose", "fun"],
-  "description": "History of the northern people of Nigeria, a Popular myth",
-  "body": "lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!vlorem ipsum!lorem ipsum!vvvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!"
+  "title": "IREV Is Not An Election Results “Collation System” - INEC Clarifies",
+  "tags": ["ELECTION", "INEC", "IREV"],
+  "description": "Nigerian Election latest Update",
+  "body": "The Independent National Electoral Commission says its results viewing portal is to enhance election transparency, and not a result collation or transmission system.
+
+The INEC Director of ICT, Paul Omokore, gave the clarification in his presentation titled, ‘The role of BVAS, IReV for Bayelsa, Kogi and Imo Governorship elections’ at a two-day capacity workshop for journalists on Monday in Akwanga, Nasarawa State.
+
+Omokore advised journalists and members of the public not to confuse uploading polling units’ results to the INEC Result Viewing Portal with the electronic transmission of results.
+
+He said that the INEC Bimodal Voter Accreditation System is only used to upload pictures of PUs’ results on form EC8A to IReV, which does not translate to electronic transmission of results."
 }
 ```
 
-:point_down: Response
+Response
 
 ```json
 {
   "status": "success",
   "data": {
-    "title": "The Rise and fall of the Northern Empire",
-    "description": "History of the northern people of Nigeria, a Popular myth",
+    "title": "IREV Is Not An Election Results “Collation System” - INEC Clarifies",
+  "description": "Nigerian Election latest Update",
     "author": "6367c296ba7522bd8561e4f6",
     "state": "draft",
     "read_count": 0,
-    "tags": ["memoirs", "expose", "fun"],
-    "body": "lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!vlorem ipsum!lorem ipsum!vvvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!",
+    "tags": ["ELECTION", "INEC", "IREV"],
+    "body": "The Independent National Electoral Commission says its results viewing portal is to enhance election transparency, and not a result collation or transmission system.
+
+The INEC Director of ICT, Paul Omokore, gave the clarification in his presentation titled, ‘The role of BVAS, IReV for Bayelsa, Kogi and Imo Governorship elections’ at a two-day capacity workshop for journalists on Monday in Akwanga, Nasarawa State.
+
+Omokore advised journalists and members of the public not to confuse uploading polling units’ results to the INEC Result Viewing Portal with the electronic transmission of results.
+
+He said that the INEC Bimodal Voter Accreditation System is only used to upload pictures of PUs’ results on form EC8A to IReV, which does not translate to electronic transmission of results.",
     "_id": "6367cc2271c384885108032f",
-    "createdAt": "2022-11-06T15:00:50.202Z",
-    "updatedAt": "2022-11-06T15:00:50.202Z",
+    "createdAt": "2023-10-17T2:00:50.202Z",
+    "updatedAt": "2023-10-17T9:00:50.202Z",
     "reading_time": 1
   }
 }
@@ -372,7 +384,7 @@ res.json
 ```json
 {
   "tags": ["memoirs", "expose"],
-  "body": "Here is the updated content: lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!vlorem ipsum!lorem ipsum!vvvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!"
+  "body": "Here is the updated content: lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!vlorem ipsum!lor.em ipsum!vvvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!"
 }
 ```
 
@@ -410,12 +422,8 @@ res.json
 
 ---
 
-- Project Link: [BlogAPI](https://github.com/Psalmzee/BlogAPI-API)
+- Project Link: [BlogAPI](https://github.com/baccrie/)
 
 ---
 ## PROJECT OWNER
-- NAME: Samson Okeji 
-- ALTSCHOOL EMAIL: engrsamsonokeji@gmail.com
-- TRACK: Backend Engineering (NodeJS)
-
-
+- AUTHOR - Bakare Rilwan
