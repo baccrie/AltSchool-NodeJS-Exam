@@ -1,7 +1,7 @@
 # BlogAPI
 
 ## Backend NodeJS Second Semester Examination Project
-#### A blogging-API built in partial fulfilment of the Altschool of Engineering focused in Backend Engineering (NodeJS) Second Semester Requirement by <a href="https://www.github.com/baccrie/altschool-exam-NodeJS">baccrie</a>, a Backend Engineering student at <a href="https://altschoolafrica.com/schools/engineering">AltSchool Africa</a>.
+#### A blogging-API built in partial fulfilment of the Altschool of Engineering focused in Backend Engineering (NodeJS) Second Semester Requirement by <a href="https://github.com/baccrie">baccrie</a>, a Backend Engineering student at <a href="https://github.com/baccrie/AltSchool-NodeJS-Exam">AltSchool Africa</a>.
 
 
 ##### Tools/Languages
@@ -19,7 +19,7 @@
 #### Clone this repo
 
 ```sh
-git clone https://github.com/Psalmzee/BlogAPI-API.git
+git clone https://github.com/baccrie/AltSchool-NodeJS-Exam
 ```
 
 #### Install project dependencies
@@ -235,7 +235,7 @@ Response
 
 ### Get all created blogs by authenticated user
 
-- Route: /api/blog/p
+- Route: /api/blog/
 - Method: GET
 - Header
   - Authorization: Bearer {token}
@@ -344,7 +344,7 @@ Response
 :point_down: Response
 
 ```json
-{{
+{
     "status": "success",
     "data": {
         "_id": "652f03c47a80de6ac257464a",
@@ -422,7 +422,7 @@ Response
 
 ---
 
-- Project Link: [BlogAPI](https://github.com/baccrie/)
+- Project Link: [BlogAPI](https://github.com/baccrie/AltSchool-NodeJS-Exam)
 
 ---
 ## PROJECT OWNER
