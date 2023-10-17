@@ -95,15 +95,15 @@ res.json
 
 ```json
 {
-  "status": "success",
-  "data": {
-    "firstName": "Rilwan",
-    "lastName": "Bakare",
-    "username": "baccrie",
-    "email": "test@gmail.com",
-    "articles": [],
-    "_id": "6367c296ba7522bd8561e4f6"
-  }
+    "status": "success",
+    "data": {
+        "firstName": "Rilwan",
+        "lastName": "Bakare",
+        "username": "baccrie",
+        "email": "test@gmail.com",
+        "articles": [],
+        "_id": "652f022d8e5ba378cc77022c"
+    }
 }
 ```
 
@@ -149,13 +149,7 @@ Body
   "title": "IREV Is Not An Election Results “Collation System” - INEC Clarifies",
   "tags": ["ELECTION", "INEC", "IREV"],
   "description": "Nigerian Election latest Update",
-  "body": "The Independent National Electoral Commission says its results viewing portal is to enhance election transparency, and not a result collation or transmission system.
-
-The INEC Director of ICT, Paul Omokore, gave the clarification in his presentation titled, ‘The role of BVAS, IReV for Bayelsa, Kogi and Imo Governorship elections’ at a two-day capacity workshop for journalists on Monday in Akwanga, Nasarawa State.
-
-Omokore advised journalists and members of the public not to confuse uploading polling units’ results to the INEC Result Viewing Portal with the electronic transmission of results.
-
-He said that the INEC Bimodal Voter Accreditation System is only used to upload pictures of PUs’ results on form EC8A to IReV, which does not translate to electronic transmission of results."
+  "body": "The Independent National Electoral Commission says its results viewing portal is to enhance election transparency, and not a result collation or transmission system. The INEC Director of ICT, Paul Omokore, gave the clarification in his presentation titled, ‘The role of BVAS, IReV for Bayelsa, Kogi and Imo Governorship elections’ at a two-day capacity workshop for journalists on Monday in Akwanga, Nasarawa State. Omokore advised journalists and members of the public not to confuse uploading polling units’ results to the INEC Result Viewing Portal with the electronic transmission of results.He said that the INEC Bimodal Voter Accreditation System is only used to upload pictures of PUs’ results on form EC8A to IReV, which does not translate to electronic transmission of results."
 }
 ```
 
@@ -163,26 +157,24 @@ Response
 
 ```json
 {
-  "status": "success",
-  "data": {
-    "title": "IREV Is Not An Election Results “Collation System” - INEC Clarifies",
-  "description": "Nigerian Election latest Update",
-    "author": "6367c296ba7522bd8561e4f6",
-    "state": "draft",
-    "read_count": 0,
-    "tags": ["ELECTION", "INEC", "IREV"],
-    "body": "The Independent National Electoral Commission says its results viewing portal is to enhance election transparency, and not a result collation or transmission system.
-
-The INEC Director of ICT, Paul Omokore, gave the clarification in his presentation titled, ‘The role of BVAS, IReV for Bayelsa, Kogi and Imo Governorship elections’ at a two-day capacity workshop for journalists on Monday in Akwanga, Nasarawa State.
-
-Omokore advised journalists and members of the public not to confuse uploading polling units’ results to the INEC Result Viewing Portal with the electronic transmission of results.
-
-He said that the INEC Bimodal Voter Accreditation System is only used to upload pictures of PUs’ results on form EC8A to IReV, which does not translate to electronic transmission of results.",
-    "_id": "6367cc2271c384885108032f",
-    "createdAt": "2023-10-17T2:00:50.202Z",
-    "updatedAt": "2023-10-17T9:00:50.202Z",
-    "reading_time": 1
-  }
+    "status": "success",
+    "data": {
+        "title": "IREV Is Not An Election Results “Collation System” - INEC Clarifies",
+        "description": "Nigerian Election latest Update",
+        "author": "652f022d8e5ba378cc77022c",
+        "state": "draft",
+        "read_count": 0,
+        "tags": [
+            "ELECTION",
+            "INEC",
+            "IREV"
+        ],
+        "body": "The Independent National Electoral Commission says its results viewing portal is to enhance election transparency, and not a result collation or transmission system. The INEC Director of ICT, Paul Omokore, gave the clarification in his presentation titled, ‘The role of BVAS, IReV for Bayelsa, Kogi and Imo Governorship elections’ at a two-day capacity workshop for journalists on Monday in Akwanga, Nasarawa State. Omokore advised journalists and members of the public not to confuse uploading polling units’ results to the INEC Result Viewing Portal with the electronic transmission of results.He said that the INEC Bimodal Voter Accreditation System is only used to upload pictures of PUs’ results on form EC8A to IReV, which does not translate to electronic transmission of results.",
+        "_id": "652f03c47a80de6ac257464a",
+        "createdAt": "2023-10-17T21:59:32.385Z",
+        "updatedAt": "2023-10-17T21:59:32.385Z",
+        "reading_time": 1
+    }
 }
 ```
 
@@ -310,22 +302,23 @@ He said that the INEC Bimodal Voter Accreditation System is only used to upload 
 {
     "status": "success",
     "data": {
-        "_id": "6367cc2271c384885108032f",
-        "title": "The witcher",
-        "description": "The witch who falls inlove",
+        "_id": "652f03c47a80de6ac257464a",
+        "title": "IREV Is Not An Election Results “Collation System” - INEC Clarifies",
+        "description": "Nigerian Election latest Update",
         "author": {
-            "_id": "6367c296ba7522bd8561e4f6",
-            "username": "samAltschooler123"
+            "_id": "652f022d8e5ba378cc77022c",
+            "username": "baccrie"
         },
-        "state": "published",
+        "state": "draft",
         "read_count": 1,
         "tags": [
-            "memoirs",
-            "expose"
+            "ELECTION",
+            "INEC",
+            "IREV"
         ],
-        "body": "lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!vlorem ipsum!lorem ipsum!vvvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!",
-        "createdAt": "2022-11-06T15:00:50.202Z",
-        "updatedAt": "2022-11-06T19:38:16.100Z",
+        "body": "The Independent National Electoral Commission says its results viewing portal is to enhance election transparency, and not a result collation or transmission system. The INEC Director of ICT, Paul Omokore, gave the clarification in his presentation titled, ‘The role of BVAS, IReV for Bayelsa, Kogi and Imo Governorship elections’ at a two-day capacity workshop for journalists on Monday in Akwanga, Nasarawa State. Omokore advised journalists and members of the public not to confuse uploading polling units’ results to the INEC Result Viewing Portal with the electronic transmission of results.He said that the INEC Bimodal Voter Accreditation System is only used to upload pictures of PUs’ results on form EC8A to IReV, which does not translate to electronic transmission of results.",
+        "createdAt": "2023-10-17T21:59:32.385Z",
+        "updatedAt": "2023-10-17T22:03:35.825Z",
         "reading_time": 1
     }
 }
@@ -351,21 +344,25 @@ He said that the INEC Bimodal Voter Accreditation System is only used to upload 
 :point_down: Response
 
 ```json
-{
-  "status": "success",
-  "data": {
-    "_id": "6367cc2271c384885108032f",
-    "title": "The witcher",
-    "description": "The witch who falls inlove",
-    "author": "6367c296ba7522bd8561e4f6",
-    "state": "published",
-    "read_count": 0,
-    "tags": ["memoirs", "expose", "fun"],
-    "body": "lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!vlorem ipsum!lorem ipsum!vvvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!",
-    "createdAt": "2022-11-06T15:00:50.202Z",
-    "updatedAt": "2022-11-06T16:17:45.137Z",
-    "reading_time": 1
-  }
+{{
+    "status": "success",
+    "data": {
+        "_id": "652f03c47a80de6ac257464a",
+        "title": "IREV Is Not An Election Results “Collation System” - INEC Clarifies",
+        "description": "Nigerian Election latest Update",
+        "author": "652f022d8e5ba378cc77022c",
+        "state": "published",
+        "read_count": 1,
+        "tags": [
+            "ELECTION",
+            "INEC",
+            "IREV"
+        ],
+        "body": "The Independent National Electoral Commission says its results viewing portal is to enhance election transparency, and not a result collation or transmission system. The INEC Director of ICT, Paul Omokore, gave the clarification in his presentation titled, ‘The role of BVAS, IReV for Bayelsa, Kogi and Imo Governorship elections’ at a two-day capacity workshop for journalists on Monday in Akwanga, Nasarawa State. Omokore advised journalists and members of the public not to confuse uploading polling units’ results to the INEC Result Viewing Portal with the electronic transmission of results.He said that the INEC Bimodal Voter Accreditation System is only used to upload pictures of PUs’ results on form EC8A to IReV, which does not translate to electronic transmission of results.",
+        "createdAt": "2023-10-17T21:59:32.385Z",
+        "updatedAt": "2023-10-17T22:05:37.655Z",
+        "reading_time": 1
+    }
 }
 ```
 
@@ -383,8 +380,8 @@ He said that the INEC Bimodal Voter Accreditation System is only used to upload 
 
 ```json
 {
-  "tags": ["memoirs", "expose"],
-  "body": "Here is the updated content: lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!vlorem ipsum!lor.em ipsum!vvvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!"
+  "tags": ["INEC", "OMOKRI"],
+  "body": "This blog post has been updated"
 }
 ```
 
@@ -392,20 +389,23 @@ He said that the INEC Bimodal Voter Accreditation System is only used to upload 
 
 ```json
 {
-  "status": "success",
-  "data": {
-    "_id": "6367cc2271c384885108032f",
-    "title": "The witcher",
-    "description": "The witch who falls inlove",
-    "author": "6367c296ba7522bd8561e4f6",
-    "state": "published",
-    "read_count": 0,
-    "tags": ["memoirs", "expose"],
-    "body": "Here is the updated content: lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!vlorem ipsum!lorem ipsum!vvvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!vvlorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!lorem ipsum!",
-    "createdAt": "2022-11-06T15:00:50.202Z",
-    "updatedAt": "2022-11-06T16:22:29.326Z",
-    "reading_time": 1
-  }
+    "status": "success",
+    "data": {
+        "_id": "652f03c47a80de6ac257464a",
+        "title": "IREV Is Not An Election Results “Collation System” - INEC Clarifies",
+        "description": "Nigerian Election latest Update",
+        "author": "652f022d8e5ba378cc77022c",
+        "state": "published",
+        "read_count": 1,
+        "tags": [
+            "INEC",
+            "OMOKRI"
+        ],
+        "body": "This blog post has been updated",
+        "createdAt": "2023-10-17T21:59:32.385Z",
+        "updatedAt": "2023-10-17T22:07:44.283Z",
+        "reading_time": 1
+    }
 }
 ```
 
