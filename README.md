@@ -83,8 +83,8 @@ req.body
 {
   "firstName": "Rilwan",
   "lastName": "Bakare",
-  "username": "baccrie",
-  "email": "test@gmail.com",
+  "username": "baccriee",
+  "email": "testing@gmail.com",
   "password": "password"
 }
 ```
@@ -97,8 +97,8 @@ res.json
     "data": {
         "firstName": "Rilwan",
         "lastName": "Bakare",
-        "username": "baccrie",
-        "email": "test@gmail.com",
+        "username": "baccriee",
+        "email": "testing@gmail.com",
         "articles": [],
         "_id": "652f022d8e5ba378cc77022c"
     }
@@ -116,7 +116,7 @@ Request
 
 ```json
 {
-  "username": "baccrie",
+  "username": "baccriee",
   "password": "password"
 }
 ```
@@ -144,7 +144,7 @@ Body
 
 ```json
 {
-  "title": "IREV Is Not An Election Results “Collation System” - INEC Clarifies",
+  "title": "IREV2 Is Not An Election Results “Collation System” - INEC Clarifies",
   "tags": ["ELECTION", "INEC", "IREV"],
   "description": "Nigerian Election latest Update",
   "body": "The Independent National Electoral Commission says its results viewing portal is to enhance election transparency, and not a result collation or transmission system. The INEC Director of ICT, Paul Omokore, gave the clarification in his presentation titled, ‘The role of BVAS, IReV for Bayelsa, Kogi and Imo Governorship elections’ at a two-day capacity workshop for journalists on Monday in Akwanga, Nasarawa State. Omokore advised journalists and members of the public not to confuse uploading polling units’ results to the INEC Result Viewing Portal with the electronic transmission of results.He said that the INEC Bimodal Voter Accreditation System is only used to upload pictures of PUs’ results on form EC8A to IReV, which does not translate to electronic transmission of results."
@@ -157,7 +157,7 @@ Response
 {
     "status": "success",
     "data": {
-        "title": "IREV Is Not An Election Results “Collation System” - INEC Clarifies",
+        "title": "IREV2 Is Not An Election Results “Collation System” - INEC Clarifies",
         "description": "Nigerian Election latest Update",
         "author": "652f022d8e5ba378cc77022c",
         "state": "draft",
@@ -294,7 +294,7 @@ Response
   - Authorization: Bearer {token}
   - None (Published blogs accessible to unauthenticated users)
 
-:point_down: Response
+Response
 
 ```json
 {
@@ -331,7 +331,7 @@ Response
 - Header
     - Authorization: Bearer {token}
 
-:point_down: Body
+Body
 
 ```json
 {
@@ -339,14 +339,14 @@ Response
 }
 ```
 
-:point_down: Response
+Response
 
 ```json
 {
     "status": "success",
     "data": {
         "_id": "652f03c47a80de6ac257464a",
-        "title": "IREV Is Not An Election Results “Collation System” - INEC Clarifies",
+        "title": "IREV2 Is Not An Election Results “Collation System” - INEC Clarifies",
         "description": "Nigerian Election latest Update",
         "author": "652f022d8e5ba378cc77022c",
         "state": "published",
@@ -374,7 +374,7 @@ Response
 - Header
 - Authorization: Bearer {token}
 
-:point_down: Body
+Body
 
 ```json
 {
@@ -383,7 +383,7 @@ Response
 }
 ```
 
-:point_down: Response
+Response
 
 ```json
 {
