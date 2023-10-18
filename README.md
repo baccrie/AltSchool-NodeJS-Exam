@@ -36,10 +36,10 @@ DBURI=mongodb+srv://<username>:<password>@cluster0.vtauxfw.mongodb.net/<database
 SECRET=some-secret-key
 ```
 
-#### For testing, run
+#### To start the development server run
 
 ```sh
-npm run
+npm start
 ```
 
 ### Models
