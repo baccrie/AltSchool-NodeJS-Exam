@@ -4,7 +4,7 @@
   "description": "A restful api built as partifal fulfilment of altschool Nodejs Scourse",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "Bakare Rilwan",

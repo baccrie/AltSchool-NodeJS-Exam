@@ -8,7 +8,6 @@ const blog = require('./routes/blogs.route')
 const cors = require('cors')
 const { requestLogger } = require('./utils/logger')
 
-
 const app = express()
 
 // connect to db
