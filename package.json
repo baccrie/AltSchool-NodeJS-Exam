@@ -1,13 +1,13 @@
 {
   "name": "blog-api",
   "version": "1.0.0",
-  "description": "A restful api built as partifal fulfilment of altschool Nodejs Scourse",
+  "description": "A restful api built as partifal fulfilment of altschool Nodejs course",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "Bakare Rilwan",
+  "author": "Bakare Rilwan T",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.26.0",
