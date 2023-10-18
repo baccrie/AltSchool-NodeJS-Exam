@@ -30,9 +30,11 @@ npm install
 
 #### Update export the following env var or add a .env file in the repo to use proteted env var
 
+```sh
 PORT=PORT
 DBURI=mongodb+srv://<username>:<password>@cluster0.vtauxfw.mongodb.net/<database>?retryWrites=true&w=majority
 SECRET=some-secret-key
+```
 
 #### For testing, run
 
