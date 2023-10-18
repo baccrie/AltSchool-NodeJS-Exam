@@ -8,10 +8,11 @@ const blog = require('./routes/blogs.route')
 const cors = require('cors')
 const { requestLogger } = require('./utils/logger')
 
+
 const app = express()
 
 // connect to db
-require('./middleware/db')('mongodb+srv://baccrie:gbenga@nodeexpressproject.ywglc5t.mongodb.net/03-TASK-MANAGER?retryWrites=true&w=majority')
+require('./middleware/db')(CONFIG.DBURI)
 
 // allow requests from all origins
 app.use(cors())

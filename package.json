@@ -4,9 +4,7 @@
   "description": "A restful api built as partifal fulfilment of altschool Nodejs Scourse",
   "main": "app.js",
   "scripts": {
-    "test": "NODE_ENV=test jest --detectOpenHandles --coverage",
-    "start": "NODE_ENV=production node app.js",
-    "dev": "NODE_ENV=development nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "Bakare Rilwan",
