@@ -28,18 +28,16 @@ git clone https://github.com/baccrie/AltSchool-NodeJS-Exam
 npm install
 ```
 
-#### Update .env with [example.env](https://github.com/Psalmzee/BlogAPI-API/blob/main/example.env)
+#### Update export the following env var or add a .env file in the repo to use proteted env var
 
-#### Run a development server
-
-```sh
-npm run dev
-```
+PORT=PORT
+DBURI=mongodb+srv://<username>:<password>@cluster0.vtauxfw.mongodb.net/<database>?retryWrites=true&w=majority
+SECRET=some-secret-key
 
 #### For testing, run
 
 ```sh
-npm run test
+npm run
 ```
 
 ### Models

@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
   res.json({
     status: 'success',
     message: 'Api Working.....',
-    README: 'Will be updated later'
+    USAGE: 'Read the Markdown file in the api repo to see usage'
   })
 })
 
