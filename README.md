@@ -126,7 +126,7 @@ Response
 ```json
 {
   "token": {JWT},
-  "username": "baccrie",
+  "username": "baccriee",
   "name": "Bakare Rilwan"
 }
 ```
